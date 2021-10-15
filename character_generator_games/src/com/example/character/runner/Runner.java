@@ -16,6 +16,7 @@ public class Runner {
 		Armors armor = Armors.CLOTHES;
 		Professions professions = Professions.MAGE;
 		Weapons weapons = Weapons.BOW;
+		
 		Builder character = new Characterr.Builder().name("Artur").hairColor(color).armor(armor).hairType(type)
 				.profession(professions).weapon(weapons);
 		System.out.println("yeni oyuncu :" + character);
