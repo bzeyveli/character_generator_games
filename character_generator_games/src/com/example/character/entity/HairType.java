@@ -18,7 +18,6 @@ public class HairType {
 	}
 
 	// valueOf metodu kullanýlabilir
-
 	public static HairTypes valueOf(String name) {
 		HairTypes type = null;
 		if (name.equals("BALD")) {

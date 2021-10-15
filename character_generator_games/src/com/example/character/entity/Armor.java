@@ -18,7 +18,6 @@ public class Armor {
 	}
 	
 	//  valueOf metodu kullanýlabilir 
-
 	public static Armors valueOf(String name) {
 		Armors type=null;
 		if(name.equals("CHAIN_MAIL")) {

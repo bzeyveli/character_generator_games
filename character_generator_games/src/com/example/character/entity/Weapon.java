@@ -18,8 +18,7 @@ public final class Weapon {
 	}
 
 	// valueOf metodu kullanýlabilir
-
-	public static Professions valueOf(String name) {
+	public static Weapons valueOf(String name) {
 		Weapons type = null;
 		if (name.equals("AXE")) {
 			type = Weapons.AXE;

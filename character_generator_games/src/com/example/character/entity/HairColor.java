@@ -15,7 +15,6 @@ public class HairColor {
 	}
 
 	// valueOf metodu kullanýlabilir
-
 	public static HairColors valueOf(String name) {
 		HairColors type = null;
 		if (name.equals("BLACK")) {

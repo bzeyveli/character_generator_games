@@ -16,7 +16,6 @@ public class Profession {
 	}
 
 	// valueOf metodu kullanýlabilir
-
 	public static Professions valueOf(String name) {
 		Professions type = null;
 		if (name.equals("MAGE")) {
